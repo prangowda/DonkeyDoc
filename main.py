@@ -8,7 +8,7 @@ from PyQt5.QtWidgets import QApplication
 from app import cfg
 from app import MainWindow
 
-
+#main function started here.
 if __name__ == "__main__":
     # enable dpi scale
     if cfg.get(cfg.dpiScale) == "Auto":
